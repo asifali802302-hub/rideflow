@@ -1,0 +1,39 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Java / Maven
+HELP.md
+**/target/
+.mvn/wrapper/maven-wrapper.jar
+**/build/
+*.class
+
+# Node / React
+**/node_modules/
+**/dist/
+
+# IDE files
+.apt_generated/
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans
+.sts4-cache/
+.idea/
+*.iws
+*.iml
+*.ipr
+.vscode/
+.nb-gradle/
+**/nbproject/private/
+**/nbbuild/
+**/nbdist/
+
+# Operating system files
+.DS_Store
+Thumbs.db
