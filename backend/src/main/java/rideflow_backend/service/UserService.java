@@ -33,9 +33,7 @@ public class UserService {
 
         user.setPassword(passwordEncoder.encode(user.getPassword()));
 
-        if (user.getRole() == null) {
-            user.setRole(User.Role.RIDER);
-        }
+        user.setRole(User.Role.RIDER);
 
         return userRepository.save(user);
     }
